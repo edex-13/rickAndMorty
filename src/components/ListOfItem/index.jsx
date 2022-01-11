@@ -1,14 +1,18 @@
 import React from 'react'
 
-import { ListOfItems, ListOfItemContainer, TitleOfItem } from './styles'
+import {
+  ListOfItems,
+  ListOfItemContainer,
+  ListOfItemContainer2,
+  TitleOfItem
+} from './styles'
 export const ListOfItem = ({ props = {}, children }) => {
   const { title = 'x' } = props
-  console.log(children)
   return (
     <ListOfItems>
       <ListOfItemContainer>
         <TitleOfItem>{title}</TitleOfItem>
-        {children}
+        <ListOfItemContainer2>{children}</ListOfItemContainer2>
       </ListOfItemContainer>
     </ListOfItems>
   )
