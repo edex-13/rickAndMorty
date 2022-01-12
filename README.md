@@ -16,7 +16,7 @@
 
     ```sh
     git clone git@github.com:edex-13/rickAndMorty.git
-    cd galeria_pokemon
+    cd rickAndMorty
     ```
     Ya tienes el proyecto ❤
 2.  **Install dependencies.**
