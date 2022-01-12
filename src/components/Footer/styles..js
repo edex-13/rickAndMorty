@@ -7,7 +7,7 @@ export const FooterContainer = styled.footer`
   flex-flow: column;
   background: rgb(32, 35, 41);
   color: rgb(158, 158, 158);
-  padding: 4.5rem 0px;
+  padding: 3.5rem 0px;
   min-height: calc(140px);
   width: 100%;
 `

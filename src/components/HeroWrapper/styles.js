@@ -21,6 +21,9 @@ export const Title = styled.h1`
   line-height: 1.5;
   font-weight: 900;
   color: ${variables.BLACK};
+  @media screen and (max-width: 720px) {
+    font-size: 60px;
+  }
 `
 
 export const HeroImage = styled.div`
@@ -65,4 +68,7 @@ export const ParallaxText = styled.p`
   text-transform: uppercase;
   letter-spacing: 8px;
   box-sizing: border-box;
+  @media screen and (max-width: 720px) {
+    font-size: 25px;
+  }
 `

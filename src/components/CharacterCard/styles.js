@@ -9,6 +9,12 @@ export const CharacterCradContainer = styled.article`
   margin: 0.75rem;
   box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px,
     rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+    height: initial;
+    width: 100%;
+    margin: 20px 0px;
+  }
 `
 
 export const CharacterImageContainer = styled.div`
