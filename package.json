@@ -40,5 +40,6 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
-  }
+  },
+  "homepage": "https://edex-13.github.io/rickAndMorty"
 }
