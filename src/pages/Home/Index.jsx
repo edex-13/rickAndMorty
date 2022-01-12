@@ -4,6 +4,7 @@ import { HeroWrapper } from '@components/HeroWrapper'
 import { ListOfItem } from '@components/ListOfItem'
 import { useGetData } from '../../hooks/useGetData'
 import { CharacterCrad } from '../../components/CharacterCard'
+import { Footer } from '../../components/Footer/'
 
 const URL_API = 'https://rickandmortyapi.com/api/'
 export const Home = () => {
@@ -25,6 +26,7 @@ export const Home = () => {
           ))}
         </ListOfItem>
       </main>
+      <Footer />
     </>
   )
 }

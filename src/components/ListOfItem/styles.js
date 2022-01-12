@@ -7,7 +7,6 @@ export const ListOfItems = styled.section`
   width:100%;
   background-color: ${variables.BLACK};
   color: ${variables.WHITE};
-  border-bottom: 1px solid ${variables.GRAY};
 `
 export const ListOfItemContainer = styled.div`
   ${wrapper()}

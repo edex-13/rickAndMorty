@@ -1,4 +1,4 @@
-export const BLACK = '#202329'
+export const BLACK = 'rgb(36, 40, 47);'
 export const GREEN = '#00ff97'
 export const YELLOW = '#ffc36c'
 export const GRAY = '#dfdfdf'
